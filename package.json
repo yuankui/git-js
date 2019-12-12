@@ -1,5 +1,5 @@
 {
-  "name": "simple-git",
+  "name": "electron-simple-git",
   "description": "Simple GIT interface for node.js",
   "version": "1.128.0",
   "author": "Steve King <steve@mydev.co>",
