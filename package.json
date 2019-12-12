@@ -32,7 +32,6 @@
   "scripts": {
     "test": "runner test/**/test*.js ",
     "test:unit": "runner test/unit/test*.js",
-    "test:integration": "runner test/integration/test*.js",
     "preversion": "yarn test",
     "postversion": "npm publish && git push && git push --tags"
   }
