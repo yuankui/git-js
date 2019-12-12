@@ -3,9 +3,9 @@
  */
 module.exports = {
 
-   buffer: function () { return require('buffer').Buffer; },
+   buffer: function () { return window.require('buffer').Buffer; },
 
-   childProcess: function () { return require('child_process'); },
+   childProcess: function () { return window.require('child_process'); },
 
    exists: require('./exists')
 
