@@ -1,5 +1,5 @@
 
-var fs = require('fs');
+var fs = window.require('fs');
 
 function exists (path, isFile, isDirectory) {
    try {
